@@ -1,4 +1,4 @@
-package de.iqwrwq.wlwa.views;
+package de.shopitech.mywish.views;
 
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
@@ -11,7 +11,7 @@ import com.vaadin.flow.component.sidenav.SideNav;
 import com.vaadin.flow.component.sidenav.SideNavItem;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.theme.lumo.LumoUtility;
-import de.iqwrwq.wlwa.views.imagegallery.ImageGalleryView;
+import de.shopitech.mywish.views.imagegallery.ImageGalleryView;
 import org.vaadin.lineawesome.LineAwesomeIcon;
 
 /**

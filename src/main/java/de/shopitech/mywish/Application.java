@@ -1,10 +1,11 @@
-package de.iqwrwq.wlwa;
+package de.shopitech.mywish;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;
 import com.vaadin.flow.theme.lumo.Lumo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 /**
  * The entry point of the Spring Boot application.
@@ -14,7 +15,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@Theme(value = "wish-list-web-app", variant = Lumo.DARK)
+@EntityScan(basePackages = "de.shopitech.mywish.data.entity")
+@Theme(value = "my-wish", variant = Lumo.DARK)
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package de.iqwrwq.wlwa.views.imagegallery;
+package de.shopitech.mywish.views.imagegallery;
 
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Image;

@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- Project from https://start.vaadin.com/project/10e6a75a-f7f6-4323-a902-a7df69db0224 -->
-    <groupId>de.iqwrwq.wlwa</groupId>
-    <artifactId>wish-list-web-app</artifactId>
-    <name>wish-list-web-app</name>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>de.shopitech.mywish</groupId>
+    <artifactId>mywish</artifactId>
+    <name>my-wish-shopitech</name>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -77,6 +77,24 @@
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-testbench-junit5</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
