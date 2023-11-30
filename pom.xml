@@ -52,6 +52,7 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-spring-boot-starter</artifactId>
+            <version>24.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.parttio</groupId>

@@ -194,7 +194,7 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "a77f35734d4275ca6ddc6edc9b2284c4e896ad15f50b4dc957647d2bd5de8abe"
+    "hash": "9cbf188fa1ef6540adb9c6dc636007b6bd4437b6f8197e76c7f5a990b0ef16bc"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -272,6 +272,7 @@
     "proj4": "$proj4",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "date-fns": "$date-fns",
-    "mobile-drag-drop": "$mobile-drag-drop"
+    "mobile-drag-drop": "$mobile-drag-drop",
+    "@fontsource/cabin": "$@fontsource/cabin"
   }
 }

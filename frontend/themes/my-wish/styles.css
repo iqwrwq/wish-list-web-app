@@ -12,7 +12,7 @@
       --lumo-size-m: 2.5rem;
       --lumo-size-s: 2rem;
       --lumo-size-xs: 1.75rem;
-      --lumo-font-family: Cabin;
+      --lumo-font-family: Cabin, 'Cabin', sans-serif;
 
 }
 

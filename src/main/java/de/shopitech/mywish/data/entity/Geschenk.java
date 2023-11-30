@@ -4,15 +4,17 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.sql.Timestamp;
+import java.util.UUID;
 
 @Entity
 @Data
-@Table(name = "geschenke")
-public class Geschenke {
+@Table(name = "geschenk")
+public class Geschenk {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "id", nullable = false)
+    private UUID id;
 
     @Column(name = "name", nullable = false)
     private String name;
@@ -20,7 +22,7 @@ public class Geschenke {
     @Column(name = "link")
     private String link;
 
-    @Column(name = "preis", precision = 10, scale = 2)
+    @Column(name = "preis")
     private Double preis;
 
     @Column(name = "anzahl")
@@ -29,4 +31,3 @@ public class Geschenke {
     @Column(name = "datum", nullable = false)
     private Timestamp datum;
 }
-
